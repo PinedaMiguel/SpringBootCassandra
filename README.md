@@ -122,10 +122,10 @@ API endpoints:
 @RequestMapping("/api/products")
 public class ProductController {
     @PostMapping
-    public ResponseEntity<Product> createProduct(@RequestBody Product product)
+    public ResponseEntity<Product> createProduct(@RequestBody Product product){}
 
     @GetMapping("/latest")
-    public ResponseEntity<List<Product>> getLatestProducts()
+    public ResponseEntity<List<Product>> getLatestProducts(){}
 }
 ```
 
